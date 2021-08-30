@@ -1,10 +1,28 @@
 .App {
   text-align: center;
 }
-
+*{
+  font-family: 'Roboto';
+  /* color:#ced4da */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+h1,h2,h3,p,ul,li {
+  color:#ced4da;
+}
+@media screen and (max-width: 600px) {
+  h1,h2,h3,p,ul,li {
+    font-size: 3vw;
+  }
+}
+
+
+
+h1,h2,h3{
+  color:#ced4da;
+  /* text-shadow: 0 0 10px #FFFFFF, 0px 0px 10px rgba(121,255,110,0.5); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
